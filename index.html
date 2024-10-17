@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Shopping Cart design</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Shopping Cart</h1>
+      <div class="project">
+        <div class="shop">
+          <div class="box">
+            <img src="./img/1.webp" />
+            <div class="content">
+              <h3>Playstation 5</h3>
+              <h4 class="price">300</h4>
+              <p>
+                Quantity:
+                <input min="0" id="unit" name="" value="0" type="number" />
+              </p>
+              <p class="btn-area">
+                <i aria-hidden="true" class="fa fa-trash"></i>
+                <span class="btn2">Remove</span>
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/2.webp" />
+            <div class="content">
+              <h3>Iphone 15 Pro Max</h3>
+              <h4>1000</h4>
+              <p>
+                Quantity:
+                <input min="0" id="unit" name="" value="0" type="number" />
+              </p>
+              <p class="btn-area">
+                <i aria-hidden="true" class="fa fa-trash"></i>
+                <span class="btn2">Remove</span>
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/3.webp" />
+            <div class="content">
+              <h3>HyperX</h3>
+              <h4>250</h4>
+              <p>
+                Quantity:
+                <input min="0" id="unit" name="" value="0" type="number" />
+              </p>
+              <p class="btn-area">
+                <i aria-hidden="true" class="fa fa-trash"></i>
+                <span class="btn2">Remove</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right-bar">
+          <p>
+            <span>Total</span> <span id="final-price">0</span> <span>$</span>
+          </p>
+          <a href="#"><i class="fa fa-shopping-cart"></i>Checkout</a>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4be189c554.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
